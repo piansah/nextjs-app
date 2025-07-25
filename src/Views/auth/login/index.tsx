@@ -12,7 +12,7 @@ export default function LoginViews() {
     <div className={styles.login}>
       <h1 className="big">Login Page</h1>
       <button onClick={handleLogin}>Login</button>
-      <p>
+      <p style = {{color: "blue", border: "1px solid blue", borderRadius: "10px", padding: "10px"}}>
         Belum register sama sekali bro?{" "}
         <Link href="/auth/register">Register</Link>
       </p>
