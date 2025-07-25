@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./login.module.css";
+import styles from "./login.module.scss";
 import { useRouter } from "next/router";
 
 export default function LoginViews() {
