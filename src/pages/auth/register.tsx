@@ -1,13 +1,9 @@
-import Link from "next/link";
+import RegisterViews from "@/Views/auth/register";
 
-export default function RegisterPage() {
+export default function LoginPage() {
   return (
     <div>
-      <h1>Register Page</h1>
-      <p>
-        Belum login sama sekali bro? <br />
-        <Link href="/auth/login">Login</Link>
-      </p>
+      <RegisterViews />
     </div>
   );
 }
