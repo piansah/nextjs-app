@@ -10,7 +10,7 @@ export default function LoginViews() {
   };
   return (
     <div className={styles.login}>
-      <h1>Login Page</h1>
+      <h1 className="big">Login Page</h1>
       <button onClick={handleLogin}>Login</button>
       <p>
         Belum register sama sekali bro?{" "}
