@@ -1,5 +1,6 @@
 // import { useEffect, useState } from "react";
 // import { useRouter } from "next/router";
+import styles from "./product.module.css";
 
 export default function ProductPage() {
   // const [isLogin] = useState(false);
@@ -12,7 +13,7 @@ export default function ProductPage() {
   // }, [isLogin, push]);
 
   return (
-    <div>
+    <div className={styles.product}>
       <h1>Product Page</h1>
     </div>
   );
